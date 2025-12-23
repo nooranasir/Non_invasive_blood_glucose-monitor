@@ -1,4 +1,4 @@
-# maj_proj — NIR-based Blood Glucose Calibration
+# Maj_proj — NIR-based Blood Glucose Calibration
 
 This project trains a calibration model that maps NIR sensor readings (from a MAX30102) to blood glucose (mg/dL), saves model coefficients, and uploads them automatically to an ESP32 device running `maj_proj.ino`.
 
@@ -18,6 +18,9 @@ Goals implemented
 - Save coefficients in a legacy-compatible format (`coef_a`, `coef_b`, `intercept_c`, `scale`) so the ESP32 can apply the model directly.
 - Automatic upload support from Python to ESP32 (`train_model.py --auto-upload` or using `upload_model.py`).
 - ESP32 sketch updated to apply the same normalization before using model coefficients, and to accept both legacy single-feature and new multi-feature payloads.
+<img width="336" height="503" alt="Screenshot 2025-12-07 235618" src="https://github.com/user-attachments/assets/7343c51b-e85a-4392-99c7-807075b73c8d" />
+<img width="794" height="600" alt="Screenshot 2025-12-08 000156" src="https://github.com/user-attachments/assets/d96a2e3a-7da0-4015-b568-037ec5b7dcb0" />
+<img width="1206" height="654" alt="Screenshot 2025-12-07 235257" src="https://github.com/user-attachments/assets/9849ab52-9a0f-4821-bbed-5662fa6aa113" />
 
 Requirements
 - Windows PowerShell (examples use PowerShell syntax)
