@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Model artifacts and datasets (often large)
+NIR_Blood_Glucose.csv
+*.csv
+*.tsv
+model_coeffs.json
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Arduino / embedded build artifacts
+*.bin
+*.hex
+*.elf
+*.eep
+*.map
+build/
+
+# Editor/project files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Keys, certificates
+*.pem
+*.key
+
+# Temporary files
+*~
+*.swp
