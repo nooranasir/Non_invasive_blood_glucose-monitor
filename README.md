@@ -1,4 +1,11 @@
-# Maj_proj — NIR-based Blood Glucose Calibration
+# Non-Invasive Blood Glucose Monitor using ESP32
+
+NIR-based blood glucose calibration with a MAX30102 sensor and an ESP32.
+
+## Contributors
+
+- [Noora Nasir](https://github.com/nooranasir)
+- [Anami James](https://github.com/Anamijames) — original repository: [BloodGlucoMonitor_UsingESP32](https://github.com/Anamijames/BloodGlucoMonitor_UsingESP32)
 
 This project trains a calibration model that maps NIR sensor readings (from a MAX30102) to blood glucose (mg/dL), saves model coefficients, and uploads them automatically to an ESP32 device running `maj_proj.ino`.
 
